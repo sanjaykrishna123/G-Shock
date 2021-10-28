@@ -1,0 +1,153 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: futura-pt,sans-serif;
+}
+.logo{
+    width:90px;
+    height:60px;
+}
+.fa-search{
+    color:white;
+}
+.small{
+    width:100%;
+    height:40px;
+    background-color: lightgray;
+}
+.span{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.description{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top:20px;
+    text-align: center;
+}
+@media (max-width:974px){
+    .description{
+        font-size: 12px;
+    }
+}
+.fortitle{
+    margin-top:150px;
+}
+.title{
+    font-weight: bold;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.watch{
+    height:140px;
+    width:60%;
+    transition: transform 330ms ease-in-out;
+    object-fit: contain;
+}
+.watch:hover{
+    transform: scale(1.2);
+}
+.card-1{
+    width:265px;
+    cursor:pointer;
+}
+.card-deck{
+    display: flex;
+    text-align: center;
+    margin-top:90px;
+}
+.bg{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+}
+.watches-2{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+.img-1{
+    width:350px;
+    height:400px;
+    margin-left:60px;
+}
+@media (max-width:750px){
+    .watches-2{
+        display:block;
+        margin-top:0px;
+        text-align: center;
+    }
+}
+footer{
+    background-color: #000;
+    font-family: futura-pt,sans-serif;   
+    color: #fff;
+    margin-bottom: -30px;
+}
+
+
+
+.section_one{
+    display: flex;
+    padding-top: 10vh;
+    justify-content: center;
+}
+
+.section_one h1{
+    margin-left: 10vw;
+    font-size: 1vw;
+    font-weight: 900;
+    font-family: futura-pt-md;
+    margin-top: 20px;
+}
+
+.section_one_row{
+    margin-left:5vw;
+}
+
+.section_one_row p{
+    font-weight: 800;
+    font-size: 1vw;
+}
+.social-media{
+    margin-top:100px;
+}
+.social-media i{
+    margin-left:30px;
+}
+.small-2{
+    width:100%;
+    height:50px;
+    background-color: #000;
+}
+.footer{
+    margin-top:50px;
+}
+.section_two i{
+    cursor: pointer;
+}
+@media (max-width:1000px){
+    .section_one{
+        display: block;
+        text-align: center;
+    }
+    .section_one p{
+        font-size: 15px !important; 
+    }
+}
+.dropdown-item{
+    color: white !important;
+}
+.dropdown-item:hover{
+    background-color: black !important;
+    color: gray !important;
+}
+.dropdown-divider{
+    color: black;
+}
+.carousel slide{
+    text-align:center;
+}
+
